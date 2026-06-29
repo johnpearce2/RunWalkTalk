@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Run Walk Talk Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #ff6b35;
+      --bg: #0f1720;
+      --card: #162232;
+      --text: #f7fbff;
+      --muted: #b9c6d2;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #142033 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 1;
+    }
+
+    h2 {
+      margin-top: 32px;
+      color: #ffffff;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    a {
+      color: #ffd0bd;
+    }
+
+    .tagline {
+      color: #ffffff;
+      font-size: 1.25rem;
+      margin-top: 0;
+    }
+
+    .card {
+      background: color-mix(in srgb, var(--card) 92%, white);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      padding: 24px;
+      margin: 24px 0;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22);
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: #111;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 999px;
+      margin-top: 8px;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #8fa0ad;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Run Walk Talk Support</h1>
+    <p class="tagline">Help for synchronized run/walk sessions on iPhone and Apple Watch.</p>
+
+    <section class="card">
+      <h2>Contact Support</h2>
+      <p>If you need help with Run Walk Talk, please email us with your device model, iOS/watchOS version, and a short description of the issue.</p>
+      <p><a class="button" href="mailto:support@runwalktalk.app">Email Support</a></p>
+    </section>
+
+    <section>
+      <h2>Getting Started</h2>
+      <ol>
+        <li>Open Run Walk Talk on the leader's iPhone.</li>
+        <li>Choose Lead Group, select a channel, and set the run/walk intervals.</li>
+        <li>Nearby iPhones and Apple Watches should join the same channel.</li>
+        <li>The leader presses Start. Everyone receives the same countdown and cues.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Common Questions</h2>
+      <p><strong>I cannot hear cues over music.</strong><br>
+      Start the run from the app, then leave your music playing. Run Walk Talk is designed to play interval cues over other audio.</p>
+
+      <p><strong>My Apple Watch did not start.</strong><br>
+      Open the watch app before the leader starts, keep it near the leader phone during setup, and make sure it shows it has joined or is waiting for the leader.</p>
+
+      <p><strong>Do I need internet?</strong><br>
+      Nearby group sync is designed for local setup and start. Health saving and route display use Apple services available on the device.</p>
+    </section>
+
+    <section>
+      <h2>Health And Location</h2>
+      <p>Run Walk Talk asks for Health permission only to save completed workouts. Location permission is used for route, distance, and pace features when you choose to use them.</p>
+    </section>
+
+    <footer>
+      <p>Run Walk Talk &copy; 2026. Support page for App Store users.</p>
+    </footer>
+  </main>
+</body>
+</html>
